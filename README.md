@@ -17,8 +17,6 @@ Chép ảnh vào `assets/img/` đúng tên dưới đây. Khi có ảnh, thay kh
 | File | Dùng ở |
 |---|---|
 | `assets/cv/Hoang-Quan-Hao-CV.pdf` | Nút Tải CV |
-| `assets/img/lume-1.jpg` đến `lume-4.jpg` | Trang chủ và case study Lumé (trang chủ, giỏ hàng, thanh toán, tích điểm) |
-| `assets/img/bloom-restock.jpg` | BloomMate, thanh trượt: buổi sáng |
 | `assets/img/bloom-evening.jpg` | BloomMate, thanh trượt: buổi tối |
 
 Ảnh nên rộng khoảng 1600 px, nén JPG chất lượng 75 đến 80%.

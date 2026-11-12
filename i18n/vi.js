@@ -256,7 +256,7 @@ window.I18N.vi = {
   "bm.day.3": "Cuối tuần",
   "bm.day.3.t": "Báo cáo",
   "bm.day.3.b": "Xem tiền hoa bỏ, so với tuần trước.",
-  "bm.img.restock": "Màn nhập hàng của BloomMate.",
+  "bm.img.restock": "Màn nhập hàng của BloomMate: buy list hôm nay, mỗi loại hoa kèm mức tồn chuẩn, số còn tươi và số cần nhập, cùng nút xác nhận đã mua đúng danh sách.",
   "bm.img.evening": "Màn chốt cuối ngày của BloomMate.",
   "bm.img.report": "Màn báo cáo của BloomMate: tiền hoa bỏ trong 7 ngày so với tuần trước, và biểu đồ cột chi phí hoa bỏ theo ngày.",
   "bm.img.stock": "Màn tồn kho của BloomMate: mỗi loại hoa kèm số cành còn, số cần dùng hôm nay và ngày mai, số còn tươi, và mức tồn chuẩn.",
@@ -366,5 +366,10 @@ window.I18N.vi = {
   "lm.r3": "dòng giày",
 
   "bm.n1": "Dùng ảnh hoa thật thay vì icon hoa, để app tạo cảm giác thân thuộc với chủ tiệm.",
-  "bm.n2": "Phát triển tính năng dự báo nhập hoa dựa trên số liệu, giúp chủ tiệm nhập hoa tốt hơn thay vì dựa vào cảm tính."
+  "bm.n2": "Phát triển tính năng dự báo nhập hoa dựa trên số liệu, giúp chủ tiệm nhập hoa tốt hơn thay vì dựa vào cảm tính.",
+
+  "lm.img.home": "Màn trang chủ Lumé: lời chào, ô tìm kiếm có nút quét mã và bộ lọc, banner flash sale, danh mục giày và hàng mới.",
+  "lm.img.cart": "Giỏ hàng Lumé với hai đôi giày, chọn size và màu, ô nhập voucher, phí giao hàng và tổng cộng.",
+  "lm.img.checkout": "Thanh toán Lumé, bước 2 trên 3: chọn thanh toán khi nhận hàng, chuyển khoản hoặc ví điện tử.",
+  "lm.img.points": "Màn ưu đãi Lumé: điểm danh mỗi ngày nhận xu, game Ghép Đôi LUMÉ, và đổi xu lấy voucher."
 };

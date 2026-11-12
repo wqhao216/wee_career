@@ -256,7 +256,7 @@ window.I18N.en = {
   "bm.day.3": "End of week",
   "bm.day.3.t": "Report",
   "bm.day.3.b": "See what the thrown-out flowers cost, compared with the week before.",
-  "bm.img.restock": "BloomMate Restock screen.",
+  "bm.img.restock": "BloomMate Restock screen: today’s buy list, each flower with its par level, what is still fresh and how much to buy, and a button to confirm the list was bought exactly.",
   "bm.img.evening": "BloomMate Evening check screen.",
   "bm.img.report": "BloomMate Report screen: money lost to thrown-out flowers over 7 days compared with the week before, and a bar chart of waste cost per day.",
   "bm.img.stock": "BloomMate Stock screen: each flower with stems in stock, how many to use today and tomorrow, how many are fresh, and the par level.",
@@ -366,5 +366,10 @@ window.I18N.en = {
   "lm.r3": "shoe lines",
 
   "bm.n1": "Use photos of real flowers instead of flower icons, so the app feels familiar to shop owners.",
-  "bm.n2": "Add a restock forecast based on the shop’s own numbers, so owners decide how much to buy from data instead of gut feeling."
+  "bm.n2": "Add a restock forecast based on the shop’s own numbers, so owners decide how much to buy from data instead of gut feeling.",
+
+  "lm.img.home": "Lumé home screen: a greeting, search with scan and filter buttons, a flash sale banner, shoe categories, and new arrivals.",
+  "lm.img.cart": "Lumé cart with two pairs, size and colour pickers, a voucher field, the shipping fee and the total.",
+  "lm.img.checkout": "Lumé checkout, step 2 of 3: choose cash on delivery, bank transfer or an e-wallet.",
+  "lm.img.points": "Lumé rewards screen: daily check-in for coins, the Ghép Đôi LUMÉ matching game, and vouchers to redeem with coins."
 };
