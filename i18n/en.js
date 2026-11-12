@@ -391,7 +391,7 @@ window.I18N.en = {
   "h.idx.k4": "Web · WordPress",
   "ab.intro": "I’m Hạo, a third-year IT student at UEH in Ho Chi Minh City. I start from what people actually do, then design for it and test it with them.",
   "ab.city": "Ho Chi Minh City",
-  "ab.photo": "Black-and-white portrait of Hoàng Quân Hạo in sunglasses and wired earphones, in front of a dark curtain.",
+  "ab.photo": "Black-and-white portrait of Hoàng Quân Hạo smiling, in sunglasses, a striped shirt and wired earphones, in front of a dark curtain.",
   "ab.lang": "Language",
   "ab.lang.vi": "Vietnamese · Native",
   "ab.lang.en": "English · Basic",

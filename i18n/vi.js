@@ -391,7 +391,7 @@ window.I18N.vi = {
   "h.idx.k4": "Web · WordPress",
   "ab.intro": "Tôi là Hạo, sinh viên năm 3 ngành Công nghệ Thông tin tại UEH, TP.HCM. Tôi bắt đầu từ những gì người dùng thật sự làm, rồi thiết kế cho điều đó và kiểm thử cùng họ.",
   "ab.city": "TP.HCM",
-  "ab.photo": "Ảnh chân dung đen trắng của Hoàng Quân Hạo đeo kính râm và tai nghe, trước tấm rèm tối.",
+  "ab.photo": "Ảnh chân dung đen trắng của Hoàng Quân Hạo đang mỉm cười, đeo kính râm, mặc áo sơ mi kẻ sọc và đeo tai nghe, trước tấm rèm tối.",
   "ab.lang": "Ngôn ngữ",
   "ab.lang.vi": "Tiếng Việt · Bản ngữ",
   "ab.lang.en": "Tiếng Anh · Cơ bản",
