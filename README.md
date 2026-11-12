@@ -12,7 +12,7 @@ Chỗ còn thiếu thông tin được đánh dấu `[TODO: ...]`. Tìm nhanh b�
 
 ## Thêm hoặc thay ảnh
 
-Ảnh nằm trong `assets/img/`. Thay ảnh cũ thì chép file mới đè lên, giữ đúng tên. Thêm ảnh mới thì viết thẻ `<img>` giống các ảnh đã có, nhớ ghi `width`, `height` và `loading="lazy"`, và thêm mô tả ảnh (alt) vào cả `i18n/en.js` lẫn `i18n/vi.js`.
+Ảnh nằm trong `assets/img/`. Mỗi ảnh có hai bản cùng tên: `.webp` (trình duyệt dùng bản này, nhẹ hơn khoảng một nửa) và `.jpg` (dự phòng cho máy rất cũ). **Thay ảnh thì thay cả hai bản**, nếu không trình duyệt vẫn hiện bản `.webp` cũ. Tạo bản WebP bằng bất kỳ công cụ nào (Squoosh, Photoshop, `cwebp`), chất lượng khoảng 80%. Thêm ảnh mới thì viết thẻ `<img>` giống các ảnh đã có, nhớ ghi `width`, `height` và `loading="lazy"`, và thêm mô tả ảnh (alt) vào cả `i18n/en.js` lẫn `i18n/vi.js`.
 
 Ảnh màn hình máy tính nên rộng khoảng 1600 px, ảnh điện thoại khoảng 720 px, nén JPG chất lượng 75 đến 80%.
 

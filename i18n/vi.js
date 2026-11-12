@@ -423,5 +423,6 @@ window.I18N.vi = {
   "h.proof1": "trung bình để hoàn thành luồng The Hook, dưới mục tiêu 120 giây",
   "h.proof2": "ý định sử dụng The Hook. 5/5 người muốn dùng",
   "h.proof3": "tiệm hoa chúng tôi phỏng vấn đều phải bỏ hoa",
-  "cs.prevproj": "Dự án trước"
+  "cs.prevproj": "Dự án trước",
+  "h.idx.here": "Xem ngay trên trang này"
 };

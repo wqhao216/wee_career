@@ -654,3 +654,9 @@ html[lang="vi"] .say, html[lang="vi"] .prose .big { line-height: 1.18; }
 .next-proj a.prev:hover .t svg { transform: translateX(-10px); }
 .next-proj .pn-grid .t { font-size: clamp(2rem, 5.5vw, 4.5rem); }
 @media (max-width: 640px) { .pn-grid { grid-template-columns: 1fr; gap: 0; } .next-proj a.next { text-align: left; border-top: 1px solid var(--line); } .next-proj a.next .t { justify-content: flex-start; } }
+/* <picture> wrappers must not change layout: let the image inside size itself as before */
+picture { display: block; }
+.index .more .acts { grid-column: 2; display: flex; flex-wrap: wrap; gap: 0 28px; }
+.index .more .acts a { text-decoration-color: rgba(255, 255, 255, 0.6); }
+.index .more a.here { color: var(--on-blue-2); }
+.index .more a.here:hover { color: #fff; }

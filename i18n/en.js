@@ -423,5 +423,6 @@ window.I18N.en = {
   "h.proof1": "average to finish The Hook flow, under a 120 s target",
   "h.proof2": "intention to use The Hook. 5 of 5 testers want it",
   "h.proof3": "flower shops we interviewed throw flowers away",
-  "cs.prevproj": "Previous project"
+  "cs.prevproj": "Previous project",
+  "h.idx.here": "See it on this page"
 };

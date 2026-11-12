@@ -226,7 +226,7 @@
         var names = { atticus: "Atticus Finch", holden: "Holden Caulfield", santiago: "Santiago" };
         stage.innerHTML =
           '<div class="sim-result">' +
-          '<img src="' + base + "hook-char-" + who + '.jpg" width="200" height="400" alt="' + t("sim.alt." + who).replace(/"/g, "&quot;") + '">' +
+          '<picture><source type="image/webp" srcset="' + base + "hook-char-" + who + '.webp"><img src="' + base + "hook-char-" + who + '.jpg" width="200" height="400" alt="' + t("sim.alt." + who).replace(/"/g, "&quot;") + '"></picture>' +
           "<div>" +
           '<p class="sim-prog">' + t("sim.result") + "</p>" +
           '<h4 class="who" tabindex="-1">' + names[who] + "</h4>" +
