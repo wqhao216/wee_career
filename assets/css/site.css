@@ -572,7 +572,7 @@ mark.pen.wait { background-size: 0% 0.075em; }
 .c-intro .btn-line { background: rgba(8, 8, 10, 0.35); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.6); color: #fff; }
 .c-intro .btn-line:hover { box-shadow: inset 0 0 0 1px #fff; }
 .c-photo { grid-column: span 5; padding: 0; overflow: hidden; position: relative; min-height: 360px; background: #111; }
-.c-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 4%; display: block; position: absolute; inset: 0; }
+.c-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block; position: absolute; inset: 0; }
 .c-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(47, 59, 255, 0.55)); mix-blend-mode: multiply; }
 .c-photo .tag { position: absolute; left: 16px; bottom: 16px; z-index: 1; background: var(--orange); color: var(--on-orange); font-size: 0.8125rem; font-weight: 700; padding: 6px 12px; border-radius: 999px; }
 .c-4 { grid-column: span 4; }
