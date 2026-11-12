@@ -10,16 +10,13 @@ Toàn bộ chữ nằm trong `i18n/en.js` (tiếng Anh, mặc định) và `i18n
 
 Chỗ còn thiếu thông tin được đánh dấu `[TODO: ...]`. Tìm nhanh bằng cách tìm chữ `TODO` trong hai file trên.
 
-## Thêm ảnh
+## Thêm hoặc thay ảnh
 
-Chép ảnh vào `assets/img/` đúng tên dưới đây. Khi có ảnh, thay khung giữ chỗ (`<div class="ph ...">`) trong HTML bằng thẻ `<img>` giống các ảnh đã có, nhớ ghi `width`, `height` và `loading="lazy"`.
+Ảnh nằm trong `assets/img/`. Thay ảnh cũ thì chép file mới đè lên, giữ đúng tên. Thêm ảnh mới thì viết thẻ `<img>` giống các ảnh đã có, nhớ ghi `width`, `height` và `loading="lazy"`, và thêm mô tả ảnh (alt) vào cả `i18n/en.js` lẫn `i18n/vi.js`.
 
-| File | Dùng ở |
-|---|---|
-| `assets/cv/Hoang-Quan-Hao-CV.pdf` | Nút Tải CV |
-| `assets/img/bloom-evening.jpg` | BloomMate, thanh trượt: buổi tối |
+Ảnh màn hình máy tính nên rộng khoảng 1600 px, ảnh điện thoại khoảng 720 px, nén JPG chất lượng 75 đến 80%.
 
-Ảnh nên rộng khoảng 1600 px, nén JPG chất lượng 75 đến 80%.
+CV nằm ở `assets/cv/Hoang-Quan-Hao-CV.pdf`. Cập nhật CV thì chép file mới đè lên, giữ đúng tên.
 
 ## Cấu trúc
 
