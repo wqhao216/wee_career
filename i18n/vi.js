@@ -418,5 +418,10 @@ window.I18N.vi = {
   "ab.obj.p": "Tìm vị trí thực tập UI/UX Designer, nơi tôi tiếp tục thiết kế <mark>từ nghiên cứu thực địa tới prototype đã kiểm thử</mark>.",
   "ab.hobby": "Sở thích",
   "ab.hobby.p": "Dành thời gian chất lượng bên những người tôi thương.",
-  "c.steps": "Chuyển tới bước"
+  "c.steps": "Chuyển tới bước",
+  "h.proof": "Bằng chứng",
+  "h.proof1": "trung bình để hoàn thành luồng The Hook, dưới mục tiêu 120 giây",
+  "h.proof2": "ý định sử dụng The Hook. 5/5 người muốn dùng",
+  "h.proof3": "tiệm hoa chúng tôi phỏng vấn đều phải bỏ hoa",
+  "cs.prevproj": "Dự án trước"
 };

@@ -418,5 +418,10 @@ window.I18N.en = {
   "ab.obj.p": "Looking for a UI/UX Designer internship where I can keep designing <mark>from field research to tested prototypes</mark>.",
   "ab.hobby": "Hobby",
   "ab.hobby.p": "Spending quality time with the people I love.",
-  "c.steps": "Jump to a step"
+  "c.steps": "Jump to a step",
+  "h.proof": "Evidence",
+  "h.proof1": "average to finish The Hook flow, under a 120 s target",
+  "h.proof2": "intention to use The Hook. 5 of 5 testers want it",
+  "h.proof3": "flower shops we interviewed throw flowers away",
+  "cs.prevproj": "Previous project"
 };

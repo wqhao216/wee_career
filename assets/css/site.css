@@ -630,3 +630,27 @@ html[lang="vi"] .say, html[lang="vi"] .prose .big { line-height: 1.18; }
 @media (prefers-contrast: more) { .gnav { background: var(--bg); } }
 /* Jumping to a chapter's first step lands its rail exactly under the header, so the previous chapter's rail is fully gone */
 .chapter > .wrap > .beat:first-child { scroll-margin-top: -23px; }
+
+/* ---------- Proof strip: three real numbers in the first screen, each a link to its evidence ---------- */
+.ember { gap: 24px; }
+.proof { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 13rem)); gap: 12px 28px; position: relative; z-index: 1; margin-bottom: calc(clamp(9rem, 30vw, 24rem) * 0.66 + 24px); }
+.proof a { display: grid; gap: 6px; color: #fff; text-decoration: none; border-top: 1px solid rgba(255, 255, 255, 0.45); padding-top: 12px; border-radius: 2px; }
+.proof a:hover .pl { text-decoration: underline; text-underline-offset: 0.2em; }
+.proof a:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+.proof .pn { font-size: clamp(1.75rem, 3.6vw, 2.75rem); font-weight: 700; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums; }
+.proof .pn small { font-size: 0.5em; margin-left: 3px; letter-spacing: 0; }
+.proof .pl { font-size: 0.875rem; line-height: 1.4; color: #fff; }
+@media (max-width: 640px) {
+  .proof { grid-template-columns: 1fr; gap: 14px; }
+  .proof a { grid-template-columns: 6.5rem minmax(0, 1fr); align-items: baseline; gap: 10px; }
+}
+
+/* ---------- Previous and next project ---------- */
+.pn-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.next-proj .pn-grid a { padding-block: clamp(48px, 7vw, 88px); }
+.next-proj a.next { text-align: right; }
+.next-proj a.next .t { justify-content: flex-end; }
+.next-proj a.prev .t svg { width: 0.6em; height: 0.6em; color: var(--accent); transition: transform 0.35s var(--ease-out); }
+.next-proj a.prev:hover .t svg { transform: translateX(-10px); }
+.next-proj .pn-grid .t { font-size: clamp(2rem, 5.5vw, 4.5rem); }
+@media (max-width: 640px) { .pn-grid { grid-template-columns: 1fr; gap: 0; } .next-proj a.next { text-align: left; border-top: 1px solid var(--line); } .next-proj a.next .t { justify-content: flex-start; } }
