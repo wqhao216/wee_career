@@ -53,7 +53,7 @@ window.I18N.en = {
   "h.hook.link": "Read the case study",
 
   "h.bloom.name": "BloomMate",
-  "h.bloom.kind": "Startup project · Product Manager in a team of 9",
+  "h.bloom.kind": "Startup project from the AI Project course · Product Manager, team of 9",
   "h.bloom.observe": "All 5 flower shops we interviewed <mark class=\"pen\">throw flowers away</mark>. Owners call it a cost of the trade.",
   "h.bloom.observe.body": "Their own estimates ran from about 5% to 20 or 30%. Tracking stock by hand costs them more effort than the flowers they lose.",
   "h.bloom.decide": "We changed the goal: balance waste against running out, without adding work for the owner.",
@@ -90,7 +90,7 @@ window.I18N.en = {
   "h.about.tools": "Tools",
   "h.about.awards": "Recognition",
   "h.about.a1": "Top 5 Finalist, DataVision 2026",
-  "h.about.a2": "Top 30 nationwide, Heading for the Future: Product Management 2025",
+  "h.about.a2": "Top 30 nationwide, Heading for the Future: Product Management 2025. Lead, market and user research.",
   "h.about.link": "More about me",
 
   /* The Hook case study */
@@ -109,7 +109,7 @@ window.I18N.en = {
   "hk.m.methods": "Methods",
   "hk.m.methods.v": "Observation, interviews, storyboards, paper prototypes, usability testing",
   "hk.m.proto": "Prototype",
-  "hk.m.proto.v": "Figma",
+  "hk.m.proto.v": "Figma, 6 screens",
   "hk.hero.img": "The Hook match screen: Atticus Finch, Holden Caulfield and Santiago, each with a similarity score.",
 
   "hk.context.lead": "A young reader gives a book 1 to 4 minutes.",
@@ -170,7 +170,7 @@ window.I18N.en = {
   "hk.screens.book.img": "The Hook book screen for The Catcher in the Rye: Holden Caulfield, two quotes, the shelf location, and a button that leads to the book.",
   "hk.screens.book": "Book screen. Quotes, the shelf location, and a button that leads to the book.",
 
-  "hk.r.setup": "We tested with 5 students aged 19 to 22: task-based testing, observation, retrospective think-aloud, and the USE questionnaire on a 7-point scale.",
+  "hk.r.setup": "We tested a 6-screen Figma prototype with 5 students aged 19 to 22, across 5 tasks. Methods: task-based testing, observation, retrospective think-aloud, and the USE questionnaire on a 7-point scale.",
   "hk.r.time": "average time to finish. Target: under 120 seconds.",
   "hk.r.within": "participants finished within 120 seconds.",
   "hk.r.scale": "USE questionnaire, out of 7",
@@ -211,7 +211,7 @@ window.I18N.en = {
   "bm.m.team": "Team",
   "bm.m.team.v": "9 people",
   "bm.m.type": "Context",
-  "bm.m.type.v": "Startup project",
+  "bm.m.type.v": "Startup project, from the AI Project course at UEH",
   "bm.m.users": "For",
   "bm.m.users.v": "Independent flower shops of 2 to 5 people",
   "bm.m.time": "Time",
@@ -284,7 +284,6 @@ window.I18N.en = {
   "lm.s.cart": "Cart",
   "lm.s.checkout": "Checkout",
   "lm.s.points": "Loyalty points",
-  "lm.next.todo": "<span class=\"todo\">[TODO: what you would do differently on Lumé]</span>",
   "lm.code": "View the code on GitHub",
   "ab.title": "About · Hoàng Quân Hạo",
   "ab.desc": "About Hoàng Quân Hạo: IT student at UEH, GPA 3.62/4.0, graduating 2027. Experience at AIESEC in Vietnam, tools, and recognition.",
@@ -299,14 +298,14 @@ window.I18N.en = {
   "ab.r1": "Content Executive",
   "ab.r1.d": "01/2026 to 07/2026",
   "ab.r1.b1": "Built the content direction for a retail business case challenge with partner PNJ.",
-  "ab.r1.b2": "Agenda Manager for Activation Day, with 190 attendees in person and online.",
+  "ab.r1.b2": "Agenda Manager for Activation Day, with about 190 attendees in person and online. 82% of feedback was satisfied.",
   "ab.r2": "Brand and Public Relations Executive",
   "ab.r2.d": "04/2025 to 01/2026",
   "ab.r2.b1": "Reviewed 1,624 PR accounts on Podio against brand standards.",
   "ab.r2.b2": "Student ambassador and KOL/KOC campaign: more than 80 posts, reaching more than 30,000 students, with more than 60 sign-ups.",
   "ab.r2.b3": "Coordinated 17 KOCs for the luggage brand MIA.",
   "ab.tt": "Personal TikTok channel",
-  "ab.tt.d": "03/2022 to 06/2023",
+  "ab.tt.d": "03/2022 to present",
   "ab.tt.b1": "Short videos for Gen Z students. 1,500 followers and more than 25,000 likes.",
   "ab.tt.link": "View the channel",
   "ab.awards": "Recognition",
@@ -370,5 +369,13 @@ window.I18N.en = {
   "lm.img.home": "Lumé home screen: a greeting, search with scan and filter buttons, a flash sale banner, shoe categories, and new arrivals.",
   "lm.img.cart": "Lumé cart with two pairs, size and colour pickers, a voucher field, the shipping fee and the total.",
   "lm.img.checkout": "Lumé checkout, step 2 of 3: choose cash on delivery, bank transfer or an e-wallet.",
-  "lm.img.points": "Lumé rewards screen: daily check-in for coins, the Ghép Đôi LUMÉ matching game, and vouchers to redeem with coins."
+  "lm.img.points": "Lumé rewards screen: daily check-in for coins, the Ghép Đôi LUMÉ matching game, and vouchers to redeem with coins.",
+
+  "lm.n1": "Let buyers compare details between pairs, personalised to each person.",
+  "lm.n2": "Add “Add to cart” and “Buy now” buttons to shoes on the home screen, so people browsing can add a pair without opening the product page.",
+  "bm.role.p2": "For the final presentation, I made a 74-second tutorial video in 6 steps that follow the user’s flow. I wrote the script and edited the video myself.",
+  "ab.h4tf": "Heading for the Future: Product Management 2025",
+  "ab.h4tf.d": "Top 30 nationwide · Lead, market and user research",
+  "ab.h4tf.b1": "A national product case competition on growth for Chợ Tốt.",
+  "ab.h4tf.b2": "Designed a survey with the team (about 100 participants) and turned the answers into user segments, personas and pain points for each stage of the journey."
 };

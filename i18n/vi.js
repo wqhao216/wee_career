@@ -53,7 +53,7 @@ window.I18N.vi = {
   "h.hook.link": "Đọc case study",
 
   "h.bloom.name": "BloomMate",
-  "h.bloom.kind": "Dự án khởi nghiệp · Product Manager, nhóm 9 người",
+  "h.bloom.kind": "Dự án khởi nghiệp từ môn Dự án AI · Product Manager, nhóm 9 người",
   "h.bloom.observe": "Cả 5 tiệm hoa chúng tôi phỏng vấn đều <mark class=\"pen\">phải bỏ hoa</mark>. Chủ tiệm coi đó là chi phí của nghề.",
   "h.bloom.observe.body": "Họ tự ước tính từ khoảng 5% đến 20 tới 30%. Quản lý tồn kho thủ công còn tốn công hơn khoản hoa bị mất.",
   "h.bloom.decide": "Chúng tôi đổi mục tiêu: cân bằng giữa bỏ hoa và hết hàng, mà không thêm việc cho chủ tiệm.",
@@ -90,7 +90,7 @@ window.I18N.vi = {
   "h.about.tools": "Công cụ",
   "h.about.awards": "Thành tích",
   "h.about.a1": "Top 5 Finalist, DataVision 2026",
-  "h.about.a2": "Top 30 toàn quốc, Heading for the Future: Product Management 2025",
+  "h.about.a2": "Top 30 toàn quốc, Heading for the Future: Product Management 2025. Trưởng nhóm nghiên cứu thị trường và người dùng.",
   "h.about.link": "Thêm về tôi",
 
   /* Case study The Hook */
@@ -109,7 +109,7 @@ window.I18N.vi = {
   "hk.m.methods": "Phương pháp",
   "hk.m.methods.v": "Quan sát, phỏng vấn, storyboard, paper prototype, kiểm thử khả dụng",
   "hk.m.proto": "Prototype",
-  "hk.m.proto.v": "Figma",
+  "hk.m.proto.v": "Figma, 6 màn hình",
   "hk.hero.img": "Màn hình gợi ý của The Hook: Atticus Finch, Holden Caulfield và Santiago, mỗi nhân vật kèm % tương đồng.",
 
   "hk.context.lead": "Một bạn đọc trẻ chỉ dành cho mỗi cuốn sách 1 đến 4 phút.",
@@ -170,7 +170,7 @@ window.I18N.vi = {
   "hk.screens.book.img": "Màn thông tin sách Bắt trẻ đồng xanh: Holden Caulfield, hai trích dẫn, vị trí kệ, và nút dẫn tới cuốn sách.",
   "hk.screens.book": "Màn thông tin sách. Trích dẫn, vị trí kệ, và nút dẫn tới cuốn sách.",
 
-  "hk.r.setup": "Nhóm kiểm thử với 5 sinh viên 19 đến 22 tuổi: kiểm thử theo nhiệm vụ, quan sát, think-aloud hồi tưởng, và bảng hỏi USE thang 7.",
+  "hk.r.setup": "Nhóm kiểm thử prototype Figma 6 màn hình với 5 sinh viên 19 đến 22 tuổi, qua 5 tác vụ. Phương pháp: kiểm thử theo nhiệm vụ, quan sát, think-aloud hồi tưởng, và bảng hỏi USE thang 7.",
   "hk.r.time": "thời gian trung bình để hoàn thành. Mục tiêu: dưới 120 giây.",
   "hk.r.within": "người hoàn thành trong 120 giây.",
   "hk.r.scale": "Bảng hỏi USE, thang 7",
@@ -211,7 +211,7 @@ window.I18N.vi = {
   "bm.m.team": "Nhóm",
   "bm.m.team.v": "9 người",
   "bm.m.type": "Bối cảnh",
-  "bm.m.type.v": "Dự án khởi nghiệp",
+  "bm.m.type.v": "Dự án khởi nghiệp, từ đồ án môn Dự án AI tại UEH",
   "bm.m.users": "Dành cho",
   "bm.m.users.v": "Tiệm hoa độc lập 2 đến 5 người",
   "bm.m.time": "Thời gian",
@@ -284,7 +284,6 @@ window.I18N.vi = {
   "lm.s.cart": "Giỏ hàng",
   "lm.s.checkout": "Thanh toán",
   "lm.s.points": "Tích điểm",
-  "lm.next.todo": "<span class=\"todo\">[TODO: điều bạn sẽ làm khác ở Lumé]</span>",
   "lm.code": "Xem code trên GitHub",
   "ab.title": "Giới thiệu · Hoàng Quân Hạo",
   "ab.desc": "Về Hoàng Quân Hạo: sinh viên CNTT UEH, GPA 3,62/4,0, tốt nghiệp 2027. Kinh nghiệm tại AIESEC in Vietnam, công cụ và thành tích.",
@@ -299,14 +298,14 @@ window.I18N.vi = {
   "ab.r1": "Content Executive",
   "ab.r1.d": "01/2026 đến 07/2026",
   "ab.r1.b1": "Xây định hướng nội dung cho đề bài business case ngành bán lẻ cùng đối tác PNJ.",
-  "ab.r1.b2": "Agenda Manager cho Activation Day, với 190 người tham dự trực tiếp và trực tuyến.",
+  "ab.r1.b2": "Agenda Manager cho Activation Day, khoảng 190 người tham dự trực tiếp và trực tuyến, đạt 82% phản hồi hài lòng.",
   "ab.r2": "Brand and Public Relations Executive",
   "ab.r2.d": "04/2025 đến 01/2026",
   "ab.r2.b1": "Kiểm duyệt 1.624 tài khoản PR trên Podio theo quy chuẩn thương hiệu.",
   "ab.r2.b2": "Chiến dịch đại sứ sinh viên và KOL/KOC: hơn 80 bài đăng, tiếp cận hơn 30.000 sinh viên, hơn 60 lượt đăng ký.",
   "ab.r2.b3": "Điều phối 17 KOC cho nhãn hàng vali MIA.",
   "ab.tt": "Kênh TikTok cá nhân",
-  "ab.tt.d": "03/2022 đến 06/2023",
+  "ab.tt.d": "03/2022 đến nay",
   "ab.tt.b1": "Video ngắn cho sinh viên Gen Z. 1.500 người theo dõi và hơn 25.000 lượt thích.",
   "ab.tt.link": "Xem kênh",
   "ab.awards": "Thành tích",
@@ -370,5 +369,13 @@ window.I18N.vi = {
   "lm.img.home": "Màn trang chủ Lumé: lời chào, ô tìm kiếm có nút quét mã và bộ lọc, banner flash sale, danh mục giày và hàng mới.",
   "lm.img.cart": "Giỏ hàng Lumé với hai đôi giày, chọn size và màu, ô nhập voucher, phí giao hàng và tổng cộng.",
   "lm.img.checkout": "Thanh toán Lumé, bước 2 trên 3: chọn thanh toán khi nhận hàng, chuyển khoản hoặc ví điện tử.",
-  "lm.img.points": "Màn ưu đãi Lumé: điểm danh mỗi ngày nhận xu, game Ghép Đôi LUMÉ, và đổi xu lấy voucher."
+  "lm.img.points": "Màn ưu đãi Lumé: điểm danh mỗi ngày nhận xu, game Ghép Đôi LUMÉ, và đổi xu lấy voucher.",
+
+  "lm.n1": "Phát triển tính năng so sánh thông tin giữa các đôi giày, cá nhân hóa cho từng người dùng.",
+  "lm.n2": "Thêm nút “Thêm vào giỏ” và “Mua ngay” ngay trên trang chủ, để người dùng đang lướt có thể thêm giày vào giỏ mà không phải vào trang sản phẩm.",
+  "bm.role.p2": "Cho buổi thuyết trình cuối kỳ, tôi làm video hướng dẫn sử dụng dài 74 giây, gồm 6 bước theo luồng thao tác của người dùng. Tôi tự viết kịch bản và tự dựng video.",
+  "ab.h4tf": "Heading for the Future: Product Management 2025",
+  "ab.h4tf.d": "Top 30 toàn quốc · Trưởng nhóm nghiên cứu thị trường và người dùng",
+  "ab.h4tf.b1": "Cuộc thi tình huống sản phẩm toàn quốc về bài toán tăng trưởng của Chợ Tốt.",
+  "ab.h4tf.b2": "Cùng nhóm thiết kế khảo sát với khoảng 100 người tham gia, tổng hợp thành phân khúc người dùng, persona và điểm khó theo từng giai đoạn hành trình."
 };
