@@ -4,14 +4,14 @@ Mode: Persuade (recruiter decides whether to read further and get in touch). Cas
 
 ## Direction contract
 
-THESIS: The home page is three chapters that each open with something observed in real people, then the decision, then the test. It refuses the category default of a centred hero over a grid of equal project cards.
+THESIS: A black stage where the work sits on electric blue and one orange ember points at what matters. Refuses the earlier quiet minimal page the user found too plain.
 
-OWN-WORLD: Near-white ground (#FBFBFD; dark #111113), ink #1D1D1F, one red-orange "red pen" accent (#C2402A; dark #FF7A5C) used only for the marked fact in each observation, links, focus and the active process step. Be Vietnam Pro at three weights, large tight display type, 18px reading text. Screenshots framed with a hairline and a soft offset shadow, never cards around text.
+OWN-WORLD: #08080A ground, #2F3BFF panels, #FF6A1A ember; `--hot` gradient (blue with an orange glow), `--hot-quiet` for plates and the index. Be Vietnam Pro, oversized tight headlines. Light theme mirrors it on #F6F6FA.
 
-STORY: The visitor learns who Hao is in one line, sees the Observe → Decide → Test path, reads two real observations with real numbers, and leaves via a case study, the CV or email.
+STORY: Name and one statement, then the ember panel, then the numbered work index; the chapters still tell observe, decide, test with real numbers.
 
-FIRST VIEWPORT: Translucent sticky nav (name, Work, About, CV, EN|VI). Left-aligned name at display size, one role line, one approach line, the three-step process row, then See the work and Download CV. The first chapter's observation starts just below the fold line.
+FIRST VIEWPORT: Header (hạo., links or Menu pill, EN/VI, theme switch). Name line, oversized statement with the observed phrase in orange, orange primary pill and outline CV pill, then the top of the ember panel with the giant cropped wordmark.
 
-FORM: Pinned by the user (concept A "From one observation", chosen on the plan page). seed: none (pinned) "Concept: A" plus the brief's "Trang chủ kể một mạch truyện: từ quan sát người thật, đến ý tưởng, đến sản phẩm được kiểm thử." Signature move: each observation's key fact is underlined in the accent as if marked with a red pen, drawn once when it scrolls into view; a sticky per-chapter rail lights Observe, Decide, Test as the reader moves through the chapter.
+FORM: Pinned by the user: "nền đen, xanh dương và 1 chút cam", option 2 (Electric) with an orange gradient over the blue, layout "same same" as their Behance reference. seed: none (pinned).
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance

@@ -34,20 +34,21 @@ Every project starts from something observed in real people (readers giving a bo
 
 ## Brand Commitments
 
-- Pinned by the user: Apple-like minimalism. Lots of white space, large type, slow reading rhythm, product screenshots as the hero. One modern sans (chosen: Be Vietnam Pro). One restrained accent (chosen: red-orange, concept A). White or very light grey ground, dark mode following the system. Light motion only. No purple-blue gradients, no emoji, no rounded shadowed cards everywhere.
+- Pinned by the user (redesign, replaces the earlier restrained look): three main colours, a black ground, electric blue and a little orange for emphasis, in the spirit of a Behance reference the user shared (layout borrowed, not copied). Gradients wanted: electric blue with an orange ember on top, "hot but not garish". Dark is the default; a light theme exists behind a switch. Electric blue leans violet; the user chose it knowingly, which overrides the earlier "no purple-blue gradients" line. Still no emoji, one sans (Be Vietnam Pro), tight oversized headlines.
+- About page is a one-screen overview board (inspired by a second reference image): pill labels, a portrait, contact, language, education, experience, achievements, hard and soft skills, certificate, objective, hobby.
 - Case study structure: Context, Problem, My role, Process, Screens, Results, What I'd do differently.
 - Copy: short, clear, natural. No em dashes. No clichés such as "passionate", "leveraged", "spearheaded".
 - Phone number is never shown on the site (email and LinkedIn only; phone stays in the CV).
 
 ## Evidence on Hand
 
-Only the facts the user supplied in the brief (kept in the conversation and mirrored in `i18n/*.js`). Screenshots: `hook-match.jpg`, `hook-book.jpg`, `bloom-today.jpg`, `bloom-report.jpg`, `bloom-stock.jpg`; character crops `hook-char-*.jpg` taken from `hook-match.jpg`. BloomMate has pilot criteria only, no pilot results: present them as a plan. Lumé facts come from the team deck `Lumé.pdf` (problem, audience, site map, architecture, member split); its slide 4 is `lume-sitemap.jpg`. The deck says Hao owned the purchase flow in an evenly split team of 4, confirmed by the user. Loyalty points were built by Hao after the deck was made (confirmed by the user), so they appear in the role but not in the deck's 23 screens / 33 features. Model photos in the deck are not used. Lumé has no test results or screenshots yet. Never invent numbers, titles, features or user praise; mark gaps `[TODO: ...]`.
+Only the facts the user supplied in the brief (kept in the conversation and mirrored in `i18n/*.js`). Screenshots: `hook-match.jpg`, `hook-book.jpg`, `bloom-today.jpg`, `bloom-report.jpg`, `bloom-stock.jpg`; character crops `hook-char-*.jpg` taken from `hook-match.jpg`. BloomMate has pilot criteria only, no pilot results: present them as a plan. Lumé facts come from the team deck `Lumé.pdf` (problem, audience, site map, architecture, member split); its slide 4 is `lume-sitemap.jpg`. The deck says Hao owned the purchase flow in an evenly split team of 4, confirmed by the user. Loyalty points were built by Hao after the deck was made (confirmed by the user), so they appear in the role but not in the deck's 23 screens / 33 features. Model photos in the deck are not used. Portrait `portrait.jpg` (user supplied, cropped to 4:5). Soft skills on About are derived from CV facts at the user's request; certificate: Project Management, Coursera; hobby: spending quality time with the people they love. Lumé has no test results or screenshots yet. Never invent numbers, titles, features or user praise; mark gaps `[TODO: ...]`.
 
 ## Product Principles
 
 1. Evidence within 30 seconds: the first two screens of the home page show a real observation and real test numbers.
 2. Observe, decide, test: every project is told in that order, and gaps in that chain are shown, not filled.
-3. The product screenshots carry the colour; the site stays quiet around them.
+3. Colour carries meaning: blue panels hold the work, orange marks the one thing to notice (the observed fact, the primary action, a number).
 4. Honest labels: illustrative content, sample data and plans are named as such.
 
 ## Accessibility & Inclusion

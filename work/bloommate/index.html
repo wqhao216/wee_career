@@ -5,8 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>BloomMate · Hoàng Quân Hạo</title>
 <meta name="description" content="Case study: a tool that helps independent flower shops buy stock and track waste, designed around the shop’s working day. Product Manager in a team of 9.">
-<meta name="theme-color" content="#FBFBFD" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#111113" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#08080A">
 <link rel="canonical" href="https://wqhao216.github.io/wee_career/work/bloommate/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Hoàng Quân Hạo">
@@ -22,6 +21,7 @@
 <link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../../assets/fonts/be-vietnam-pro-700-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../../assets/fonts/be-vietnam-pro-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<script>try{if(localStorage.getItem("theme")==="light")document.documentElement.setAttribute("data-theme","light")}catch(e){}</script>
 <link rel="stylesheet" href="../../assets/css/site.css">
 <script src="../../i18n/en.js"></script>
 <script src="../../i18n/vi.js"></script>
@@ -31,17 +31,21 @@
 
 <header class="gnav">
   <div class="wrap">
-    <a class="brand" href="../../" data-i18n="c.brand" data-i18n-attr="aria-label:c.home"></a>
-    <nav data-i18n-attr="aria-label:c.nav">
+    <a class="brand" href="../../">hạo<span class="dot">.</span><span class="sr-only" data-i18n="c.home"></span></a>
+    <nav id="site-nav" data-i18n-attr="aria-label:c.nav">
       <ul>
         <li><a class="nl" href="../../#work" aria-current="page" data-i18n="c.work"></a></li>
         <li><a class="nl" href="../../about/" data-i18n="c.about"></a></li>
         <li class="cv"><a class="nl" href="../../assets/cv/Hoang-Quan-Hao-CV.pdf" download data-i18n="c.cv"></a></li>
       </ul>
     </nav>
-    <div class="lang" role="group" data-i18n-attr="aria-label:c.lang">
-      <button type="button" data-lang="en" aria-pressed="true" data-i18n-attr="aria-label:c.lang.en">EN</button>
-      <button type="button" data-lang="vi" aria-pressed="false" data-i18n-attr="aria-label:c.lang.vi">VI</button>
+    <div class="tools-r">
+      <div class="lang" role="group" data-i18n-attr="aria-label:c.lang">
+        <button type="button" data-lang="en" aria-pressed="true" data-i18n-attr="aria-label:c.lang.en">EN</button>
+        <button type="button" data-lang="vi" aria-pressed="false" data-i18n-attr="aria-label:c.lang.vi">VI</button>
+      </div>
+      <button type="button" class="theme" role="switch" aria-checked="true" data-theme-toggle data-i18n-attr="aria-label:c.theme"><span></span></button>
+      <button type="button" class="menu-btn" aria-expanded="false" aria-controls="site-nav" data-menu data-i18n="c.menu"></button>
     </div>
   </div>
 </header>
@@ -59,7 +63,7 @@
         <div><dt data-i18n="bm.m.time"></dt><dd data-i18n-html="bm.m.time.v"></dd></div>
         <div><dt data-i18n="bm.m.mvp"></dt><dd><a href="https://wqhao216.github.io/bloommate/" target="_blank" rel="noopener"><span data-i18n="bm.m.mvp.v"></span><span class="sr-only" data-i18n="c.newtab"></span></a></dd></div>
       </dl>
-      <figure class="shot">
+      <figure class="plate">
         <img src="../../assets/img/bloom-today.jpg" width="1600" height="828" fetchpriority="high" decoding="async" data-i18n-attr="alt:h.bloom.img" alt="">
         <figcaption data-i18n="bm.cap.today"></figcaption>
       </figure>

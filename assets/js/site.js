@@ -280,6 +280,38 @@
     listeners.push(function () { setDay(+range.value); });
   }
 
+  /* ---------- Theme: dark by default, light on request; remembered per visitor ---------- */
+  var themeBtn = document.querySelector("[data-theme-toggle]");
+  var themeMeta = document.querySelector('meta[name="theme-color"]');
+  function syncTheme() {
+    var light = doc.getAttribute("data-theme") === "light";
+    if (themeBtn) themeBtn.setAttribute("aria-checked", String(!light));
+    if (themeMeta) themeMeta.setAttribute("content", light ? "#F6F6FA" : "#08080A");
+  }
+  if (themeBtn) themeBtn.addEventListener("click", function () {
+    var light = doc.getAttribute("data-theme") !== "light";
+    if (light) doc.setAttribute("data-theme", "light"); else doc.removeAttribute("data-theme");
+    try { localStorage.setItem("theme", light ? "light" : "dark"); } catch (e) { /* storage blocked: lasts this visit */ }
+    syncTheme();
+  });
+  syncTheme();
+
+  /* ---------- Menu pill on phones ---------- */
+  var gnav = document.querySelector(".gnav");
+  var menuBtn = document.querySelector("[data-menu]");
+  function setMenu(open) {
+    if (!gnav || !menuBtn) return;
+    gnav.classList.toggle("open", open);
+    menuBtn.setAttribute("aria-expanded", String(open));
+    if (open) { var first = gnav.querySelector("nav a"); if (first) first.focus(); }
+  }
+  if (menuBtn) {
+    menuBtn.addEventListener("click", function () { setMenu(!gnav.classList.contains("open")); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && gnav.classList.contains("open")) { setMenu(false); menuBtn.focus(); } });
+    document.addEventListener("click", function (e) { if (gnav.classList.contains("open") && !gnav.contains(e.target)) setMenu(false); });
+    gnav.querySelectorAll("nav a").forEach(function (a) { a.addEventListener("click", function () { setMenu(false); }); });
+  }
+
   /* ---------- Start ---------- */
   var first = stored();
   applyLang(first === "vi" || first === "en" ? first : "en");

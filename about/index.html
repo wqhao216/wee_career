@@ -4,9 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>About · Hoàng Quân Hạo</title>
-<meta name="description" content="About Hoàng Quân Hạo: IT student at UEH, GPA 3.62/4.0, graduating 2027. Experience at AIESEC in Vietnam, tools, and recognition.">
-<meta name="theme-color" content="#FBFBFD" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#111113" media="(prefers-color-scheme: dark)">
+<meta name="description" content="About Hoàng Quân Hạo at a glance: IT student at UEH, UX skills, experience, achievements, certificate and contact.">
+<meta name="theme-color" content="#08080A">
 <link rel="canonical" href="https://wqhao216.github.io/wee_career/about/">
 <meta property="og:type" content="profile">
 <meta property="og:site_name" content="Hoàng Quân Hạo">
@@ -22,6 +21,7 @@
 <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../assets/fonts/be-vietnam-pro-700-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../assets/fonts/be-vietnam-pro-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<script>try{if(localStorage.getItem("theme")==="light")document.documentElement.setAttribute("data-theme","light")}catch(e){}</script>
 <link rel="stylesheet" href="../assets/css/site.css">
 <script src="../i18n/en.js"></script>
 <script src="../i18n/vi.js"></script>
@@ -31,112 +31,114 @@
 
 <header class="gnav">
   <div class="wrap">
-    <a class="brand" href="../" data-i18n="c.brand" data-i18n-attr="aria-label:c.home"></a>
-    <nav data-i18n-attr="aria-label:c.nav">
+    <a class="brand" href="../">hạo<span class="dot">.</span><span class="sr-only" data-i18n="c.home"></span></a>
+    <nav id="site-nav" data-i18n-attr="aria-label:c.nav">
       <ul>
         <li><a class="nl" href="../#work" data-i18n="c.work"></a></li>
         <li><a class="nl" href="./" aria-current="page" data-i18n="c.about"></a></li>
         <li class="cv"><a class="nl" href="../assets/cv/Hoang-Quan-Hao-CV.pdf" download data-i18n="c.cv"></a></li>
       </ul>
     </nav>
-    <div class="lang" role="group" data-i18n-attr="aria-label:c.lang">
-      <button type="button" data-lang="en" aria-pressed="true" data-i18n-attr="aria-label:c.lang.en">EN</button>
-      <button type="button" data-lang="vi" aria-pressed="false" data-i18n-attr="aria-label:c.lang.vi">VI</button>
+    <div class="tools-r">
+      <div class="lang" role="group" data-i18n-attr="aria-label:c.lang">
+        <button type="button" data-lang="en" aria-pressed="true" data-i18n-attr="aria-label:c.lang.en">EN</button>
+        <button type="button" data-lang="vi" aria-pressed="false" data-i18n-attr="aria-label:c.lang.vi">VI</button>
+      </div>
+      <button type="button" class="theme" role="switch" aria-checked="true" data-theme-toggle data-i18n-attr="aria-label:c.theme"><span></span></button>
+      <button type="button" class="menu-btn" aria-expanded="false" aria-controls="site-nav" data-menu data-i18n="c.menu"></button>
     </div>
   </div>
 </header>
 
 <main id="main">
-  <header class="cs-head" style="padding-bottom:0">
+  <div class="board-wrap">
     <div class="wrap">
-      <h1 data-i18n="ab.h"></h1>
-      <p class="sum" data-i18n="ab.lead"></p>
-      <div class="actions links" style="margin-top:32px;gap:12px">
-        <a class="btn btn-ink" href="../assets/cv/Hoang-Quan-Hao-CV.pdf" download>
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M3 13.5h10"/></svg>
-          <span data-i18n="h.cta.cv"></span>
-        </a>
-        <a class="btn btn-line" href="#contact" data-i18n="c.contact.title"></a>
-      </div>
-    </div>
-  </header>
+      <div class="board">
+        <section class="cell c-intro" aria-labelledby="ab-h">
+          <h1 id="ab-h" data-i18n="ab.h"></h1>
+          <p data-i18n="ab.intro"></p>
+          <div class="actions">
+            <a class="btn btn-ink" href="../assets/cv/Hoang-Quan-Hao-CV.pdf" download><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M3 13.5h10"/></svg><span data-i18n="h.cta.cv"></span></a>
+            <a class="btn btn-line" href="#contact" data-i18n="c.contact.title"></a>
+          </div>
+        </section>
+        <figure class="cell c-photo" style="margin:0">
+          <img src="../assets/img/portrait.jpg" width="800" height="1000" fetchpriority="high" decoding="async" data-i18n-attr="alt:ab.photo" alt="">
+          <figcaption class="tag" data-i18n="ab.city"></figcaption>
+        </figure>
 
-  <section class="band" style="margin-top:clamp(64px,9vw,112px)" aria-labelledby="edu">
-    <div class="wrap">
-      <h2 id="edu" data-i18n="ab.edu"></h2>
-      <div class="row">
-        <span class="k">UEH</span>
-        <div>
-          <h3 data-i18n="ab.edu.school"></h3>
-          <p style="margin-top:8px" data-i18n="ab.edu.v"></p>
-          <p style="margin-top:8px" data-i18n="ab.edu.courses"></p>
-        </div>
-      </div>
-    </div>
-  </section>
+        <section class="cell c-4" aria-labelledby="ab-contact">
+          <h2 id="ab-contact" data-i18n="c.contact.title"></h2>
+          <ul>
+            <li><a href="mailto:haohwuan@gmail.com">haohwuan@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/qu%C3%A2n-h%E1%BA%A1o-ho%C3%A0ng-7aa39737b/" target="_blank" rel="noopener">LinkedIn<span class="sr-only" data-i18n="c.newtab"></span></a></li>
+            <li data-i18n="ab.city"></li>
+          </ul>
+        </section>
+        <section class="cell c-4" aria-labelledby="ab-lang">
+          <h2 id="ab-lang" data-i18n="ab.lang"></h2>
+          <ul><li data-i18n="ab.lang.vi"></li><li data-i18n="ab.lang.en"></li></ul>
+        </section>
+        <section class="cell c-4" aria-labelledby="ab-edu">
+          <h2 id="ab-edu" data-i18n="ab.edu"></h2>
+          <p class="t" data-i18n="ab.edu.school"></p>
+          <p style="margin-top:6px" data-i18n="ab.edu.v"></p>
+          <p class="d" style="margin-top:8px" data-i18n="ab.edu.courses"></p>
+        </section>
 
-  <section class="band" aria-labelledby="exp">
-    <div class="wrap">
-      <h2 id="exp" data-i18n="ab.exp"></h2>
-      <div class="row">
-        <span class="k">AIESEC</span>
-        <div>
-          <p class="org" data-i18n="ab.aiesec"></p>
-          <div class="job">
-            <h3 data-i18n="ab.r1"></h3>
-            <p class="d" data-i18n="ab.r1.d"></p>
+        <section class="cell c-8" aria-labelledby="ab-exp">
+          <h2 id="ab-exp" data-i18n="ab.exp"></h2>
+          <div class="job-row">
+            <p class="t" data-i18n="ab.r1"></p><p class="d"><span data-i18n="ab.aiesec"></span> · <span data-i18n="ab.r1.d"></span></p>
             <ul><li data-i18n="ab.r1.b1"></li><li data-i18n="ab.r1.b2"></li></ul>
           </div>
-          <div class="job">
-            <h3 data-i18n="ab.r2"></h3>
-            <p class="d" data-i18n="ab.r2.d"></p>
+          <div class="job-row">
+            <p class="t" data-i18n="ab.r2"></p><p class="d"><span data-i18n="ab.aiesec"></span> · <span data-i18n="ab.r2.d"></span></p>
             <ul><li data-i18n="ab.r2.b1"></li><li data-i18n="ab.r2.b2"></li><li data-i18n="ab.r2.b3"></li></ul>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <span class="k">TikTok</span>
-        <div class="job">
-          <h3 data-i18n="ab.tt"></h3>
-          <p class="d" data-i18n="ab.tt.d"></p>
-          <ul><li data-i18n="ab.tt.b1"></li></ul>
-          <div class="links">
-            <a class="go ext" href="https://www.tiktok.com/@wqhao216" target="_blank" rel="noopener"><span data-i18n="ab.tt.link"></span><span class="sr-only" data-i18n="c.newtab"></span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 11 11 5M6 5h5v5"/></svg></a>
+          <div class="job-row">
+            <p class="t" data-i18n="ab.tt"></p><p class="d" data-i18n="ab.tt.d"></p>
+            <ul><li data-i18n="ab.tt.b1"></li><li><a href="https://www.tiktok.com/@wqhao216" target="_blank" rel="noopener"><span data-i18n="ab.tt.link"></span><span class="sr-only" data-i18n="c.newtab"></span></a></li></ul>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </section>
+        <section class="cell c-4" aria-labelledby="ab-rec">
+          <h2 id="ab-rec" data-i18n="ab.awards"></h2>
+          <div class="job-row">
+            <p class="t" data-i18n="ab.h4tf"></p><p class="d" data-i18n="ab.h4tf.d"></p>
+            <ul><li data-i18n="ab.h4tf.b2"></li></ul>
+          </div>
+          <div class="job-row"><p class="t" data-i18n="h.about.a1"></p></div>
+        </section>
 
-  <section class="band" aria-labelledby="rec">
-    <div class="wrap">
-      <h2 id="rec" data-i18n="ab.awards"></h2>
-      <div class="row">
-        <span class="k">2025</span>
-        <div class="job">
-          <h3 data-i18n="ab.h4tf"></h3>
-          <p class="d" data-i18n="ab.h4tf.d"></p>
-          <ul><li data-i18n="ab.h4tf.b1"></li><li data-i18n="ab.h4tf.b2"></li></ul>
-        </div>
-      </div>
-      <div class="row">
-        <span class="k">2026</span>
-        <div class="job"><h3 data-i18n="h.about.a1"></h3></div>
-      </div>
-    </div>
-  </section>
+        <section class="cell c-6" aria-labelledby="ab-hard">
+          <h2 id="ab-hard" data-i18n="ab.hard"></h2>
+          <p class="sub-h" data-i18n="ab.ux"></p>
+          <ul class="chips"><li data-i18n="ab.ux1"></li><li data-i18n="ab.ux2"></li><li data-i18n="ab.ux3"></li><li data-i18n="ab.ux4"></li><li data-i18n="ab.ux5"></li><li data-i18n="ab.ux6"></li><li data-i18n="ab.ux7"></li></ul>
+          <p class="sub-h" data-i18n="ab.tools"></p>
+          <ul class="chips"><li>Figma</li><li>Claude</li><li>Canva</li><li>CapCut</li><li>WordPress</li><li>Elementor</li><li>Power BI</li><li>Google Sheets</li></ul>
+          <p class="sub-h" data-i18n="ab.dev"></p>
+          <ul class="chips"><li>Flutter</li><li>Firebase</li></ul>
+        </section>
+        <section class="cell c-6" aria-labelledby="ab-soft">
+          <h2 id="ab-soft" data-i18n="ab.soft"></h2>
+          <ul class="chips"><li data-i18n="ab.s1"></li><li data-i18n="ab.s2"></li><li data-i18n="ab.s3"></li><li data-i18n="ab.s4"></li><li data-i18n="ab.s5"></li></ul>
+        </section>
 
-  <section class="band" aria-labelledby="tools">
-    <div class="wrap">
-      <h2 id="tools" data-i18n="ab.tools"></h2>
-      <div class="row">
-        <span class="k"></span>
-        <ul class="tools">
-          <li>Figma</li><li>Claude</li><li>Canva</li><li>CapCut</li><li>WordPress</li><li>Elementor</li><li>Power BI</li><li>Google Sheets</li><li>Flutter</li><li>Firebase</li>
-        </ul>
+        <section class="cell c-4" aria-labelledby="ab-cert">
+          <h2 id="ab-cert" data-i18n="ab.cert"></h2>
+          <p class="t" data-i18n="ab.cert.name"></p><p class="d" data-i18n="ab.cert.by"></p>
+        </section>
+        <section class="cell c-4 c-obj" aria-labelledby="ab-obj">
+          <h2 id="ab-obj" data-i18n="ab.obj"></h2>
+          <p data-i18n-html="ab.obj.p"></p>
+        </section>
+        <section class="cell c-4" aria-labelledby="ab-hobby">
+          <h2 id="ab-hobby" data-i18n="ab.hobby"></h2>
+          <p data-i18n="ab.hobby.p"></p>
+        </section>
       </div>
     </div>
-  </section>
+  </div>
 
   <section class="band contact" id="contact" aria-labelledby="contact-h">
     <div class="wrap">
