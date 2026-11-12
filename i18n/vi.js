@@ -417,5 +417,6 @@ window.I18N.vi = {
   "ab.obj": "Mục tiêu",
   "ab.obj.p": "Tìm vị trí thực tập UI/UX Designer, nơi tôi tiếp tục thiết kế <mark>từ nghiên cứu thực địa tới prototype đã kiểm thử</mark>.",
   "ab.hobby": "Sở thích",
-  "ab.hobby.p": "Dành thời gian chất lượng bên những người tôi thương."
+  "ab.hobby.p": "Dành thời gian chất lượng bên những người tôi thương.",
+  "c.steps": "Chuyển tới bước"
 };

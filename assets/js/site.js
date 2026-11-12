@@ -145,10 +145,14 @@
     items.forEach(function (el) { io.observe(el); });
   }
   document.querySelectorAll(".chapter").forEach(function (ch) {
-    var steps = ch.querySelectorAll(".steps li");
+    var steps = ch.querySelectorAll(".steps a[data-step]");
     spy(Array.prototype.slice.call(ch.querySelectorAll("[data-beat]")), function (beat) {
       var name = beat.getAttribute("data-beat");
-      steps.forEach(function (li) { li.classList.toggle("on", li.getAttribute("data-step") === name); });
+      steps.forEach(function (a) {
+        var on = a.getAttribute("data-step") === name;
+        a.parentElement.classList.toggle("on", on);
+        if (on) a.setAttribute("aria-current", "step"); else a.removeAttribute("aria-current");
+      });
     });
   });
   var tocLinks = document.querySelectorAll(".toc a[href^='#']");

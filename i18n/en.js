@@ -417,5 +417,6 @@ window.I18N.en = {
   "ab.obj": "Objective",
   "ab.obj.p": "Looking for a UI/UX Designer internship where I can keep designing <mark>from field research to tested prototypes</mark>.",
   "ab.hobby": "Hobby",
-  "ab.hobby.p": "Spending quality time with the people I love."
+  "ab.hobby.p": "Spending quality time with the people I love.",
+  "c.steps": "Jump to a step"
 };

@@ -61,7 +61,7 @@
       </div>
       <div class="ember">
         <div class="row-top">
-          <p class="flow3"><span data-i18n="c.observe"></span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg><span data-i18n="c.decide"></span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg><span data-i18n="c.test"></span></p>
+          <p class="flow3"><a href="#hook-observe" data-i18n="c.observe"></a><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg><a href="#hook-decide" data-i18n="c.decide"></a><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg><a href="#hook-test" data-i18n="c.test"></a></p>
           <p class="where" data-i18n="h.role"></p>
         </div>
         <span class="word" aria-hidden="true">Hạo</span>
@@ -103,19 +103,21 @@
       <div class="wrap">
         <h2 class="name" id="ch-hook" data-i18n="h.hook.name"></h2>
         <span class="kind" data-i18n="h.hook.kind"></span>
-        <ol class="steps" aria-hidden="true">
-          <li data-step="observe" data-i18n="c.observe"></li>
-          <li data-step="decide" data-i18n="c.decide"></li>
-          <li data-step="test" data-i18n="c.test"></li>
-        </ol>
+        <nav class="steps-nav" data-i18n-attr="aria-label:c.steps">
+          <ol class="steps">
+            <li><a href="#hook-observe" data-step="observe" data-i18n="c.observe"></a></li>
+            <li><a href="#hook-decide" data-step="decide" data-i18n="c.decide"></a></li>
+            <li><a href="#hook-test" data-step="test" data-i18n="c.test"></a></li>
+          </ol>
+        </nav>
       </div>
     </div>
     <div class="wrap">
-      <div class="beat" data-beat="observe">
+      <div class="beat" id="hook-observe" data-beat="observe">
         <h3 class="say reveal" data-i18n-html="h.hook.observe"></h3>
         <p class="body reveal" data-i18n="h.hook.observe.body"></p>
       </div>
-      <div class="beat" data-beat="decide">
+      <div class="beat" id="hook-decide" data-beat="decide">
         <h3 class="say reveal" data-i18n="h.hook.decide"></h3>
         <p class="body reveal" data-i18n="h.hook.decide.body"></p>
         <figure class="plate reveal">
@@ -123,7 +125,7 @@
           <figcaption data-i18n="h.hook.cap"></figcaption>
         </figure>
       </div>
-      <div class="beat" data-beat="test">
+      <div class="beat" id="hook-test" data-beat="test">
         <h3 class="say reveal" data-i18n="h.hook.test"></h3>
         <div class="stats reveal">
           <div class="stat"><div class="n"><span data-num="95.4" data-dec="1" data-count></span><small data-i18n="c.sec"></small></div><p data-i18n="h.hook.s1"></p></div>
@@ -145,19 +147,21 @@
       <div class="wrap">
         <h2 class="name" id="ch-bloom" data-i18n="h.bloom.name"></h2>
         <span class="kind" data-i18n="h.bloom.kind"></span>
-        <ol class="steps" aria-hidden="true">
-          <li data-step="observe" data-i18n="c.observe"></li>
-          <li data-step="decide" data-i18n="c.decide"></li>
-          <li data-step="test" data-i18n="c.test"></li>
-        </ol>
+        <nav class="steps-nav" data-i18n-attr="aria-label:c.steps">
+          <ol class="steps">
+            <li><a href="#bloom-observe" data-step="observe" data-i18n="c.observe"></a></li>
+            <li><a href="#bloom-decide" data-step="decide" data-i18n="c.decide"></a></li>
+            <li><a href="#bloom-test" data-step="test" data-i18n="c.test"></a></li>
+          </ol>
+        </nav>
       </div>
     </div>
     <div class="wrap">
-      <div class="beat" data-beat="observe">
+      <div class="beat" id="bloom-observe" data-beat="observe">
         <h3 class="say reveal" data-i18n-html="h.bloom.observe"></h3>
         <p class="body reveal" data-i18n="h.bloom.observe.body"></p>
       </div>
-      <div class="beat" data-beat="decide">
+      <div class="beat" id="bloom-decide" data-beat="decide">
         <h3 class="say reveal" data-i18n="h.bloom.decide"></h3>
         <ul class="decisions reveal">
           <li data-i18n="h.bloom.d1"></li>
@@ -170,7 +174,7 @@
           <figcaption data-i18n="h.bloom.cap"></figcaption>
         </figure>
       </div>
-      <div class="beat" data-beat="test">
+      <div class="beat" id="bloom-test" data-beat="test">
         <h3 class="say reveal" data-i18n="h.bloom.test"></h3>
         <ol class="criteria reveal">
           <li data-i18n="h.bloom.p1"></li>
