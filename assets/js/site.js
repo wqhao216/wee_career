@@ -255,6 +255,31 @@
     listeners.push(function () { render(false); });
   }
 
+  /* ---------- BloomMate: a day in the shop. Without JS every stop stays visible, stacked. ---------- */
+  var day = document.getElementById("day");
+  if (day) {
+    var range = day.querySelector(".range");
+    var panels = day.querySelectorAll(".day-panel");
+    var ticks = day.querySelectorAll(".day-tick");
+    day.classList.add("js-day");
+    day.querySelector(".day-ctl").classList.add("on");
+    var setDay = function (i) {
+      range.value = i;
+      range.style.setProperty("--p", (i / (panels.length - 1)) * 100 + "%");
+      range.setAttribute("aria-valuetext", t("bm.day." + i) + ": " + t("bm.day." + i + ".t"));
+      panels.forEach(function (p, j) {
+        var off = j !== i;
+        p.setAttribute("aria-hidden", String(off));
+        if ("inert" in p) p.inert = off;
+      });
+      ticks.forEach(function (b, j) { b.setAttribute("aria-pressed", String(j === i)); });
+    };
+    range.addEventListener("input", function () { setDay(+range.value); });
+    ticks.forEach(function (b, j) { b.addEventListener("click", function () { setDay(j); }); });
+    setDay(+range.value || 0);
+    listeners.push(function () { setDay(+range.value); });
+  }
+
   /* ---------- Start ---------- */
   var first = stored();
   applyLang(first === "vi" || first === "en" ? first : "en");

@@ -381,3 +381,58 @@ mark.pen.wait { background-size: 0% 0.075em; }
 }
 @media (scripting: none) { .reveal.wait, mark.pen.wait { opacity: 1; transform: none; background-size: 100% 0.075em; } }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* ---------- BloomMate: a day in the shop ---------- */
+.day { margin-top: clamp(64px, 9vw, 112px); }
+.day h3 { font-size: var(--t-h2); letter-spacing: -0.025em; line-height: 1.15; }
+.day-note { margin-top: 12px; font-size: var(--t-small); color: var(--muted); max-width: 40rem; }
+.day-ctl { margin-top: 32px; max-width: 48rem; }
+.range { -webkit-appearance: none; appearance: none; width: 100%; height: 44px; margin: 0; background: transparent; cursor: pointer; --p: 0%; }
+.range:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 8px; }
+.range::-webkit-slider-runnable-track { height: 4px; border-radius: 4px; background: linear-gradient(var(--accent), var(--accent)) 0 / var(--p) 100% no-repeat, var(--line); }
+.range::-moz-range-track { height: 4px; border-radius: 4px; background: var(--line); }
+.range::-moz-range-progress { height: 4px; border-radius: 4px; background: var(--accent); }
+.range::-webkit-slider-thumb { -webkit-appearance: none; width: 24px; height: 24px; margin-top: -10px; border-radius: 50%; background: var(--ink); border: 0; box-shadow: 0 0 0 5px var(--bg), 0 2px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s var(--ease-out); }
+.range::-moz-range-thumb { width: 24px; height: 24px; border-radius: 50%; background: var(--ink); border: 0; box-shadow: 0 0 0 5px var(--bg), 0 2px 8px rgba(0, 0, 0, 0.2); }
+.range:active::-webkit-slider-thumb { transform: scale(1.12); }
+.day-ticks { position: relative; height: 44px; list-style: none; }
+.day-ticks li { position: absolute; top: 0; }
+.day-ticks li:nth-child(1) { left: 0; }
+.day-ticks li:nth-child(2) { left: 33.333%; transform: translateX(-50%); }
+.day-ticks li:nth-child(3) { left: 66.667%; transform: translateX(-50%); }
+.day-ticks li:nth-child(4) { right: 0; }
+.day-tick { font: inherit; font-size: var(--t-small); min-height: 44px; padding: 0 4px; border: 0; background: none; color: var(--muted); cursor: pointer; white-space: nowrap; }
+.day-tick[aria-pressed="true"] { color: var(--ink); font-weight: 600; }
+.day-tick:hover { color: var(--ink); }
+.day-ctl:not(.on) { display: none; }
+.day-stage { margin-top: 28px; display: grid; gap: 56px; }
+.js-day .day-stage { gap: 0; }
+.js-day .day-panel { grid-area: 1 / 1; transition: opacity 0.45s var(--ease-out), visibility 0s linear 0s; }
+.js-day .day-panel[aria-hidden="true"] { opacity: 0; visibility: hidden; transition: opacity 0.3s var(--ease-out), visibility 0s linear 0.3s; }
+.day-when { font-size: var(--t-small); color: var(--muted); }
+.day-panel h4 { font-size: var(--t-h3); letter-spacing: -0.015em; margin-top: 2px; }
+.day-panel p.b { margin-top: 8px; color: var(--ink-2); max-width: 36rem; min-height: 3.3em; }
+.day-panel .shot { margin-top: 24px; }
+.ph.day-ph { aspect-ratio: 1600 / 828; }
+
+.why { display: block; color: var(--muted); font-size: 0.9375rem; margin-top: 4px; }
+
+/* ---------- Lumé screens ---------- */
+.phones { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: 32px 24px; }
+.phones figure { margin: 0; }
+.phones .ph.phone { max-width: none; width: 100%; }
+.phones figcaption { margin-top: 12px; font-size: var(--t-small); color: var(--muted); }
+
+/* ---------- About ---------- */
+.job + .job { margin-top: 28px; }
+.job h3 { font-size: 1.125rem; font-weight: 600; letter-spacing: -0.01em; }
+.job .d { font-size: var(--t-small); color: var(--muted); margin-top: 2px; font-variant-numeric: tabular-nums; }
+.job ul { list-style: none; margin-top: 10px; }
+.job li { padding: 10px 0; border-top: 1px solid var(--line); color: var(--ink-2); }
+.org { font-weight: 600; color: var(--ink); margin-bottom: 18px; }
+
+/* ---------- 404 ---------- */
+.nf { padding-block: clamp(96px, 20vh, 200px); }
+.nf h1 { font-size: var(--t-display); line-height: 1.02; letter-spacing: -0.04em; max-width: 14ch; }
+.nf p { margin-top: 20px; font-size: var(--t-lead); color: var(--ink-2); }
+.nf .btn { margin-top: 36px; }
