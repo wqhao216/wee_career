@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Lumé · Hoàng Quân Hạo</title>
-<meta name="description" content="Lumé, a shopping app for women’s shoes built with Flutter and Firebase. I wrote most of the code: ordering, cart, checkout and loyalty points.">
+<meta name="description" content="Lumé, a shopping app for women’s shoes that helps buyers pick the right size the first time. Built with Flutter and Firebase by a team of 4 in 2 weeks. I built the purchase flow.">
 <meta name="theme-color" content="#FBFBFD" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111113" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://wqhao216.github.io/wee_career/work/lume/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Hoàng Quân Hạo">
 <meta property="og:title" content="Lumé · Project by Hoàng Quân Hạo">
-<meta property="og:description" content="A shopping app for women’s shoes, built with Flutter and Firebase.">
+<meta property="og:description" content="A shopping app for women’s shoes that helps buyers pick the right size the first time. Team of 4, 2 weeks, 23 screens. I built the purchase flow.">
 <meta property="og:url" content="https://wqhao216.github.io/wee_career/work/lume/">
 <meta property="og:image" content="https://wqhao216.github.io/wee_career/assets/img/og-cover.jpg">
 <meta property="og:image:width" content="1200">
@@ -53,6 +53,7 @@
       <p class="sum" data-i18n="lm.summary"></p>
       <dl class="facts">
         <div><dt data-i18n="lm.m.role"></dt><dd data-i18n="lm.m.role.v"></dd></div>
+        <div><dt data-i18n="lm.m.course"></dt><dd data-i18n="lm.m.course.v"></dd></div>
         <div><dt data-i18n="lm.m.stack"></dt><dd data-i18n="lm.m.stack.v"></dd></div>
         <div><dt data-i18n="lm.m.team"></dt><dd data-i18n-html="lm.m.team.v"></dd></div>
         <div><dt data-i18n="lm.m.time"></dt><dd data-i18n-html="lm.m.time.v"></dd></div>
@@ -79,28 +80,64 @@
   <section class="cs-sec" id="context" aria-labelledby="h-context">
     <div class="wrap">
       <h2 id="h-context" data-i18n="cs.context"></h2>
-      <div class="prose read"><p data-i18n-html="lm.context.todo"></p></div>
+      <div class="prose read">
+        <p class="big reveal" data-i18n="lm.context.lead"></p>
+        <p data-i18n="lm.context.p1"></p>
+        <p data-i18n="lm.context.p2"></p>
+        <p data-i18n="lm.context.p3"></p>
+      </div>
     </div>
   </section>
 
   <section class="cs-sec" id="problem" aria-labelledby="h-problem">
     <div class="wrap">
       <h2 id="h-problem" data-i18n="cs.problem"></h2>
-      <div class="prose read"><p data-i18n-html="lm.problem.todo"></p></div>
+      <div class="prose read"><p data-i18n="lm.problem.p"></p></div>
+      <ol class="pf reveal">
+        <li>
+          <div><span class="lbl" data-i18n="lm.pain"></span><b data-i18n="lm.pain1"></b><span data-i18n="lm.pain1.b"></span></div>
+          <div><span class="lbl" data-i18n="lm.fix"></span><b class="fx" data-i18n="lm.fix1"></b><span data-i18n="lm.fix1.b"></span></div>
+        </li>
+        <li>
+          <div><span class="lbl" data-i18n="lm.pain"></span><b data-i18n="lm.pain2"></b><span data-i18n="lm.pain2.b"></span></div>
+          <div><span class="lbl" data-i18n="lm.fix"></span><b class="fx" data-i18n="lm.fix2"></b><span data-i18n="lm.fix2.b"></span></div>
+        </li>
+        <li>
+          <div><span class="lbl" data-i18n="lm.pain"></span><b data-i18n="lm.pain3"></b><span data-i18n="lm.pain3.b"></span></div>
+          <div><span class="lbl" data-i18n="lm.fix"></span><b class="fx" data-i18n="lm.fix3"></b><span data-i18n="lm.fix3.b"></span></div>
+        </li>
+      </ol>
     </div>
   </section>
 
   <section class="cs-sec" id="role" aria-labelledby="h-role">
     <div class="wrap">
       <h2 id="h-role" data-i18n="cs.role"></h2>
-      <div class="prose read"><p data-i18n="lm.role.p1"></p></div>
+      <div class="prose read"><p data-i18n="lm.role.p1"></p><p data-i18n="lm.role.p2"></p></div>
     </div>
   </section>
 
   <section class="cs-sec" id="process" aria-labelledby="h-process">
     <div class="wrap">
       <h2 id="h-process" data-i18n="cs.process"></h2>
-      <div class="prose read"><p data-i18n-html="lm.process.todo"></p></div>
+      <ol class="timeline reveal">
+        <li><b data-i18n="lm.p.problem"></b><span data-i18n="lm.p.problem.v"></span></li>
+        <li><b data-i18n="lm.p.users"></b><span data-i18n="lm.p.users.v"></span></li>
+        <li><b data-i18n="lm.p.ia"></b><span data-i18n="lm.p.ia.v"></span></li>
+        <li><b data-i18n="lm.p.arch"></b><span data-i18n="lm.p.arch.v"></span></li>
+        <li><b data-i18n="lm.p.split"></b><span data-i18n="lm.p.split.v"></span></li>
+      </ol>
+      <figure class="shot reveal">
+        <img src="../../assets/img/lume-sitemap.jpg" width="1600" height="900" loading="lazy" decoding="async" data-i18n-attr="alt:lm.img.map" alt="">
+        <figcaption data-i18n="lm.cap.map"></figcaption>
+      </figure>
+      <h3 class="flow-h" data-i18n="lm.arch"></h3>
+      <ol class="timeline reveal" style="margin-top:20px">
+        <li><b data-i18n="lm.a1"></b><span data-i18n="lm.a1.v"></span></li>
+        <li><b data-i18n="lm.a2"></b><span data-i18n="lm.a2.v"></span></li>
+        <li><b data-i18n="lm.a3"></b><span data-i18n="lm.a3.v"></span></li>
+        <li><b data-i18n="lm.a4"></b><span data-i18n="lm.a4.v"></span></li>
+      </ol>
     </div>
   </section>
 
@@ -119,7 +156,13 @@
   <section class="cs-sec" id="results" aria-labelledby="h-results">
     <div class="wrap">
       <h2 id="h-results" data-i18n="cs.results"></h2>
-      <div class="prose read"><p data-i18n-html="lm.results.todo"></p></div>
+      <div class="prose read"><p data-i18n="lm.results.p"></p></div>
+      <div class="stats reveal" style="max-width:48rem">
+        <div class="stat"><div class="n"><span data-num="23" data-count></span></div><p data-i18n="lm.r1"></p></div>
+        <div class="stat"><div class="n"><span data-num="33" data-count></span></div><p data-i18n="lm.r2"></p></div>
+        <div class="stat"><div class="n"><span data-num="6" data-count></span></div><p data-i18n="lm.r3"></p></div>
+      </div>
+      <p class="note" data-i18n-html="lm.results.todo"></p>
     </div>
   </section>
 

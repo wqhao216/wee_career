@@ -41,7 +41,7 @@ Every project starts from something observed in real people (readers giving a bo
 
 ## Evidence on Hand
 
-Only the facts the user supplied in the brief (kept in the conversation and mirrored in `i18n/*.js`). Screenshots: `hook-match.jpg`, `hook-book.jpg`, `bloom-today.jpg`, `bloom-report.jpg`, `bloom-stock.jpg`; character crops `hook-char-*.jpg` taken from `hook-match.jpg`. BloomMate has pilot criteria only, no pilot results: present them as a plan. Lumé has no goals, users, design decisions or screenshots yet. Never invent numbers, titles, features or user praise; mark gaps `[TODO: ...]`.
+Only the facts the user supplied in the brief (kept in the conversation and mirrored in `i18n/*.js`). Screenshots: `hook-match.jpg`, `hook-book.jpg`, `bloom-today.jpg`, `bloom-report.jpg`, `bloom-stock.jpg`; character crops `hook-char-*.jpg` taken from `hook-match.jpg`. BloomMate has pilot criteria only, no pilot results: present them as a plan. Lumé facts come from the team deck `Lumé.pdf` (problem, audience, site map, architecture, member split); its slide 4 is `lume-sitemap.jpg`. The deck says Hao owned the purchase flow in an evenly split team of 4, which differs from the original brief ("most of the code", "loyalty points"); the site follows the deck until the user decides. Model photos in the deck are not used. Lumé has no test results or screenshots yet. Never invent numbers, titles, features or user praise; mark gaps `[TODO: ...]`.
 
 ## Product Principles
 
